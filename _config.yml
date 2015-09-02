@@ -4,7 +4,7 @@ email: ustczhan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  一些路上的记录吧
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://smallzhan.github.io" # the base hostname & protocol for your site
 twitter_username: smallzhan
 github_username:  smallzhan
 
