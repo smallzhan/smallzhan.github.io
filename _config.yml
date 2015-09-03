@@ -9,4 +9,18 @@ twitter_username: smallzhan
 github_username:  smallzhan
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - autolink
+    - tables
+
+kramdown: 
+ input:          GFM
+ auto_ids:       true
+ auto_id_prefix: 'id-'
