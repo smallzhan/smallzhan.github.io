@@ -1,6 +1,6 @@
 ---
 layout: post
-title: emacs 使用中的 tips
+title: emacs org-mode 写 github-pages
 excerpt:
 categories:
   -  emacs
@@ -34,7 +34,7 @@ github pages 优化过的输出器，这个输出器可以在 melpa 直接安装
 
 首先定义一个输出工程的函数给 project 用。
 
-```emacs-lisp
+```lisp
 (require 'ox-gfm)
 
 (defun org-gfm-publish-to-markdown (plist filename pub-dir)
@@ -72,7 +72,7 @@ github pages 优化过的输出器，这个输出器可以在 melpa 直接安装
 根据这个结构，可以如下配置 post 的 project。这表明在 org publish 的时候输出整个
 blog 中的所有 org 文件，当然，publish 的时候没更改的文件不会重新输出。
 
-```emacs-lisp
+```lisp
 (setq org-publish-project-alist
  `(("gitpages" ;; settings for cute-jumper.github.io
    :base-directory , (concat org-directory "blog")
@@ -95,7 +95,7 @@ blog 中的所有 org 文件，当然，publish 的时候没更改的文件不�
 上日期之类。我们需要的就是在 blog 的 \_posts 目录中建立 org 文件，发布时就会自动发
 布到 jekyll 的 \_posts 中。下面的一些函数主要来自前文的那个链接。
 
-```emacs-lisp
+```lisp
 (defvar jekyll-directory (expand-file-name (concat org-directory "blog/"))
   "Path to Jekyll blog.")
 ;(defvar jekyll-drafts-dir "_drafts/"
