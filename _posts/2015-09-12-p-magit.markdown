@@ -1,15 +1,12 @@
-<div class="HTML">
-&#x2014; layout: post title: 一个不错的 git 客户端：Magit excerpt: categories:
-
--   emacs
-
+---
+layout: post
+title: 一个不错的 git 客户端：Magit
+excerpt:
+categories:
+  -  emacs
 tags:
-
--   emacs
-
-&#x2014;
-
-</div>
+  -  emacs
+---
 
 
 # Magit 的缘起

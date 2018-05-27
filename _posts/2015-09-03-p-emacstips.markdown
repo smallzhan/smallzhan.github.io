@@ -98,7 +98,7 @@ brew install emacs-mac --with-official-icon
 (defvar jekyll-post-ext ".org"
   "File extension of Jekyll posts.")
 (defvar jekyll-post-template
-  "#+BEGIN_HTML\n---\nlayout: post\ntitle: %s\nexcerpt: \ncategories:\n  -  \ntags:\n  -  \n---\n#+END_HTML\n\n* "
+  "#+BEGIN_EXPORT html\n---\nlayout: post\ntitle: %s\nexcerpt: \ncategories:\n  -  \ntags:\n  -  \n---\n#+END_EXPORT\n\n* "
   "Default template for Jekyll posts. %s will be replace by the post title.")
 
 (defun jekyll-make-slug (s)

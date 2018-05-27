@@ -1,15 +1,13 @@
-<div class="HTML">
-&#x2014; layout: post title: Android 中 Bonjour 通信的最佳方式 comments: true excerpt: categories:
-
--   android
-
+---
+layout: post
+title: Android 中 Bonjour 通信的最佳方式
+comments: true
+excerpt:
+categories:
+  -  android
 tags:
-
--   android
-
-&#x2014;
-
-</div>
+  -  android
+---
 
 
 # 背景， Zeroconf

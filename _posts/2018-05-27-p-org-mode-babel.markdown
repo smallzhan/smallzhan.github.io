@@ -1,15 +1,13 @@
-<div class="HTML">
-&#x2014; layout: post title: org mode 以及 org-babel 的那些事(一) comments: true excerpt: categories:
-
--   emacs
-
+---
+layout: post
+title: org mode 以及 org-babel 的那些事(一)
+comments: true
+excerpt: 
+categories:
+  -  emacs
 tags:
-
--   emacs
-
-&#x2014;
-
-</div>
+  -  emacs
+---
 
 
 # Org Mode
