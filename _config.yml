@@ -8,7 +8,6 @@ url: "http://smallzhan.github.io" # the base hostname & protocol for your site
 twitter_username: smallzhan
 github_username:  smallzhan
 
-theme: jekyll-theme-slate
 # Build settings
 #markdown: kramdown
 highlighter: pygments
