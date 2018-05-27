@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
+title: About(关于)
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+斯达特二普(startup) 是一个利用  [Jekyll](https://github.com/jekyll/jekyll)搭建在 github pages 上的有些想法和思考集合。
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+放这里的原因主要是能纯净写东西的地方不多了。
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+关于我，没啥好说的，反正这里主要是自己看的东西，总结性质的。等想起来的时候跑来看看，自high一下。
+
+以上。
