@@ -9,9 +9,8 @@ twitter_username: smallzhan
 github_username:  smallzhan
 
 # Build settings
-#markdown: kramdown
+markdown: kramdown
 highlighter: pygments
-markdown: redcarpet
 redcarpet:
   extensions:
     - fenced_code_blocks
