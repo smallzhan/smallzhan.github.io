@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 十月读书笔记《闪电式扩张》
+title: 十月读书笔记--《闪电式扩张》
 comments: true
 excerpt: 
 categories:

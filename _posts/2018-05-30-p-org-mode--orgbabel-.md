@@ -42,20 +42,20 @@ tags:
 
 在配合有 org-babel 的 orgmode 里面，完全就不用这样干了，begin 一个代码块，直接写了。 能支持的都用 ob- 开头，去 melpa 看一下， 吓到了，各种主流非主流的语言都有了。
 
-<pre class="verse">
-#+BEGIN_SRC python :results output<br />
-print("hello, world 1")<br />
-#+END_SRC<br />
-</pre>
+<p class="verse">
+#+BEGIN<sub>SRC</sub> python :results output<br />
+print(&ldquo;hello, world 1&rdquo;)<br />
+\#+END<sub>SRC</sub><br />
+</p>
 
 在这个代码块上用下 `C-c C-c` 快捷键，立马结果就出来，整个过程中都不需要从 emacs 里面出去。结果会放在一个 `#+RESULTS:` 的标签里面
 
 上面的就是这样的结果
 
-<pre class="verse">
+<p class="verse">
 #+RESULTS:<br />
 : hello, world 1<br />
-</pre>
+</p>
 
 然后呢, 如果 SRC 里面的代码太长，也有办法，就是 narrow 一下，所谓 narrow 就是，把这个 buffer 里面的其他部分全部隐藏起来，只保留这个 SRC 的部分，就像真在写代码一样。而且，是真像在写代码一样，高亮啊，补全啊，都存在。
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 6 月读书笔记《智能商业》
+title: 六月读书笔记--《智能商业》
 comments: true
 excerpt: 
 categories:

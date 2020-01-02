@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11 月读书笔记--《推理的迷宫》
+title: 十一月读书笔记--《推理的迷宫》
 comments: true
 excerpt: 
 categories:

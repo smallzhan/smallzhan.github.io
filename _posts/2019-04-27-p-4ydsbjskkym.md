@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4 月读书笔记-《思考快与慢》
+title: 四月读书笔记--《思考快与慢》
 comments: true
 excerpt: 
 categories:

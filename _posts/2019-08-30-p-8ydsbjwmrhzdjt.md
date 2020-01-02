@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 8月读书笔记《我们如何走到今天》
+title: 八月读书笔记--《我们如何走到今天》
 comments: true
 excerpt: 
 categories:
