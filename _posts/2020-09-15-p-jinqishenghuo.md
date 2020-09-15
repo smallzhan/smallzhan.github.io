@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jinqishenghuo
+title: 近期杂感回顾
 comments: true
 excerpt: 
 categories:
