@@ -43,7 +43,7 @@ brew install emacs-mac --with-official-icon
 
     Return output file name."
   (org-publish-org-to 'gfm filename ".markdown"
-                      plist pub-dir))
+					  plist pub-dir))
 ```
 
 因为 jekyll 默认会渲染工程目录 \_posts 下面的 markdown 文件，目录结构大 概如下：
@@ -119,13 +119,13 @@ brew install emacs-mac --with-official-icon
   "Start a new github-pages entry"
   (interactive "sPost Title: ")
       (let ((draft-file (concat jekyll-directory jekyll-posts-dir
-                            (format-time-string "%Y-%m-%d-p-")
-                            (jekyll-make-slug title)
-                            jekyll-post-ext)))
-        (if (file-exists-p draft-file)
-            (find-file draft-file)
-          (find-file draft-file)
-          (insert (format jekyll-post-template (jekyll-yaml-escape title))))))
+							(format-time-string "%Y-%m-%d-p-")
+							(jekyll-make-slug title)
+							jekyll-post-ext)))
+		(if (file-exists-p draft-file)
+			(find-file draft-file)
+		  (find-file draft-file)
+		  (insert (format jekyll-post-template (jekyll-yaml-escape title))))))
 ```
 
 使用起来也非常简单，直接 `M-x my-pages-start-post` 来开始一篇文章，输入标题，然 后就直接按照 org mode 来吧。写好后，直接 `M-x org-publish-current-project` 或使 用 `M-x org-publish-project` 并选择 blog 项目即可。
