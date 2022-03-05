@@ -44,7 +44,7 @@ tags:
 
 <p class="verse">
 #+BEGIN<sub>SRC</sub> python :results output<br />
-print(&ldquo;hello, world 1&rdquo;)<br />
+print("hello, world 1")<br />
 \#+END<sub>SRC</sub><br />
 </p>
 

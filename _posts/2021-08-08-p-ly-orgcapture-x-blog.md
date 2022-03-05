@@ -31,7 +31,7 @@ tags:
 
 # 更新jekyll文件名函数
 
-之前采用pyim 的函数 `pyim-hanzi-to-pinyin-simple` 来做这个事情，但是这个函数有个问题，就是其中的英文会被吃掉，只剩下中文。另一方面，后来使用 rime 之后就把pyim 去掉了，所以这个函数也没使用了，最近研究了一下 `pinyinlib`，他里面包含了一个大的汉字表，因此写了两个小函数来实现这个功能，主要就是中英文混合的命令转换。
+之前采用pyim 的函数 `pyim-hanzi-to-pinyin-simple` 来做这个事情，但是这个函数有个问题，就是其中的英文会被吃掉，只剩下中文。另一方面，后来使用 rime 之后就把pyim 去掉了，所以这个函数也没使用了，最近研究了一下 =pinyinlib=，他里面包含了一个大的汉字表，因此写了两个小函数来实现这个功能，主要就是中英文混合的命令转换。
 
 ```emacs-lisp
 (defun my-pinyinlib-convert-cc (cc)
@@ -45,12 +45,12 @@ tags:
            (if (string-match (char-to-string cc) l)
                (throw '__ (char-to-string (+ 97 i)))
              (cl-incf i)))))))
- 
+
  (defun my-pinyinlib-convert-chinese (chinese)
    "convert chinese string to pinyin"
    (mapconcat (lambda (c) (my-pinyinlib-convert-cc c))
               chinese ""))
- 
+
  (defun jekyll-make-slug (s)
    "Turn a string into a slug."
    (unless (featurep 'pinyinlib)
@@ -62,4 +62,4 @@ tags:
                 "[^A-Za-z0-9 ]" "" s-pinyin)))))
 ```
 
-其中，`my-pinyinlib-convert-cc` 是将汉字转换成拼音首字母，而 `my-pinyinlib-convert-chinese` 就是将中文句子转换成首字母，其中的英文能够原样保留。
+其中，=my-pinyinlib-convert-cc= 是将汉字转换成拼音首字母，而 `my-pinyinlib-convert-chinese` 就是将中文句子转换成首字母，其中的英文能够原样保留。
