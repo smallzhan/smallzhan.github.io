@@ -4,7 +4,7 @@ title: Android 中 Bonjour 通信的最佳方式
 comments: true
 excerpt:
 categories:
-  -  android
+  -  programming
 tags:
   -  android
 ---
